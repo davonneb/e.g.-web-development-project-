@@ -26,11 +26,8 @@
 <!-- This is like a welcome to the page -->
     <main>
         <section id="intro">
-            <h1>Welcome to the DavonneB-Web-Development-Project</h1>
-            <p>A small look inside of my Kennesaw State life.</p>
-            <body>
-                <img src="GreenSTAR1.jpg"
-            </body>
+            <h1 style="background-color: aquamarine;">Welcome to the DavonneB-Web-Development-Project</h1>
+            <p style="background-color: aquamarine;">A small look inside of my Kennesaw State life.</p>
         </section>
     
     </main>
@@ -40,3 +37,24 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+
+<head>
+    <body>
+        <div class="background-image"></div>
+    </body>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .background-image {
+            background-image: url('./GreenSTAR1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+    </style>
+
+</head>
